@@ -1,0 +1,155 @@
+.active {
+    color: rgb(0, 154, 216) !important;
+}
+
+.navbar {
+    background-color: rgb(30, 32, 43);
+    height: 138px;
+}
+
+nav div a div h1 {
+    font-size: 16px;
+}
+
+nav div a div small {
+    font-size: 10px;
+}
+
+.nav-link {
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 0px 25px !important;
+}
+
+.nav-link:hover {
+    border: 2px solid rgb(0, 154, 216);
+    color: rgb(0, 154, 216) !important;
+}
+
+body {
+    background-color: rgb(30, 32, 43);
+}
+
+#weatherDiv {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+}
+
+#findInput {
+    padding: 15px 20px;
+    background-color: rgb(30, 32, 43);
+    border-color: transparent;
+    color: white;
+}
+
+#findBtn {
+    top: 5px;
+    right: 5px;
+    background-color: rgb(0, 154, 216);
+    border-color: transparent;
+    padding: 10px 40px;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    border: none;
+}
+
+#weatherCard1 .card-header {
+    background: linear-gradient(rgb(45, 48, 61), rgb(45, 48, 61)), url();
+}
+
+#weatherCard2 .card-header {
+    background: linear-gradient(rgb(34, 37, 48), rgb(34, 37, 48)), url();
+}
+
+#weatherCard3 .card-header {
+    background: linear-gradient(rgb(45, 48, 61), rgb(45, 48, 61)), url();
+}
+
+#weatherCard1 .card-body {
+    background: linear-gradient(rgb(50, 53, 68), rgb(50, 53, 68)), url();
+}
+
+#weatherCard2 .card-body {
+    background: linear-gradient(rgb(38, 41, 54), rgb(38, 41, 54)), url();
+}
+
+#weatherCard3 .card-body {
+    background: linear-gradient(rgb(50, 53, 68), rgb(50, 53, 68)), url();
+}
+
+#todayDegreeH1 {
+    font-size: 90px;
+}
+
+.card-group small {
+    color: rgb(0, 154, 216);
+}
+
+#weatherCard2 p {
+    font-size: 24px;
+}
+
+#weatherCard2 h6 {
+    color: rgb(191, 193, 200);
+}
+
+#weatherCard3 p {
+    font-size: 24px;
+}
+
+#weatherCard3 h6 {
+    color: rgb(191, 193, 200);
+}
+
+#footer {
+    background-color: rgb(38, 41, 54);
+}
+
+#footer p {
+    color: white;
+}
+
+i {
+    font-size: 20px;
+    color: rgb(0, 154, 216);
+    background-color: rgb(30, 32, 43);
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+    transition: 0.3s;
+}
+
+i:hover {
+    color: white;
+    background-color: rgb(0, 154, 216);
+    cursor: pointer;
+}
+
+#Input2 {
+    padding: 15px 20px;
+    background-color: rgb(30, 32, 43);
+    border-color: transparent;
+    color: white;
+}
+
+#Btn2 {
+    top: 5px;
+    right: 5px;
+    background-color: rgb(0, 154, 216);
+    border-color: transparent;
+    padding: 10px 40px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#todayWeatherImg{
+    width: 100px;
+}
