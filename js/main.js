@@ -52,7 +52,7 @@ async function hi() {
     } else if (currentWeekDay === 'Saturday') {
         overmorrowWeekDay = days[1];
     } else {
-        overmorrowWeekDay = days[date.getDay() + 1];
+        overmorrowWeekDay = days[date.getDay() + 2];
     }
 
     todaySpan.innerText = `${currentWeekDay}`;
@@ -110,7 +110,7 @@ find.addEventListener('keyup', async function () {
     } else if (currentWeekDay === 'Saturday') {
         overmorrowWeekDay = days[1];
     } else {
-        overmorrowWeekDay = days[date.getDay() + 1];
+        overmorrowWeekDay = days[date.getDay() + 2];
     }
 
     todaySpan.innerText = `${currentWeekDay}`;
